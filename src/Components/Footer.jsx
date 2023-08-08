@@ -35,7 +35,7 @@ const Footer = () => {
             </defs>
           </svg>
         </a>
-        <a href="https://t.me/getrichquickschemeerc">
+        <a href="http://twitter.com/NyanCat1000X">
           <svg
             width="41"
             height="32"
