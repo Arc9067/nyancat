@@ -13,7 +13,15 @@ const App = () => {
   function Notopen() {
     return (
       <div className="relative min-h-screen w-full flex justify-center items-center  text-white bg-[#0D00FB] bg-black b]g2">
-        <img src={play} alt="" className="cursor-pointer" />
+        <img
+          src={play}
+          alt=""
+          className="cursor-pointer"
+          onClick={() => {
+            setOpen(true);
+            new Audio("/audio.mp3").play();
+          }}
+        />
       </div>
     );
   }
