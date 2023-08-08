@@ -2,6 +2,7 @@ import React from "react";
 import Hero from "./Components/Hero";
 import About from "./Components/About";
 import logo from "./assets/logo.svg";
+import Mics from "./Components/Mics";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Hero />
         <About />
         <img src={logo} alt="" className="mx-auto animate-pulse" />
+        <Mics />
       </div>
     </div>
   );
