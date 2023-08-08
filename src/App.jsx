@@ -36,7 +36,7 @@ const App = () => {
           <div className="grow shrink basis-0 self-stretch px-2.5 pt-2.5 pb-[9px] border-2 border-yellow-400 justify-center items-center inline-flex">
             <div className="grow shrink basis-0 self-stretch px-8 py-4 bg-black shadow justify-center items-center gap-2.5 inline-flex">
               <div className="text-white text-xl font-comic font-bold leading-7 tracking-tight">
-                BUY LSD
+                CLICK ME
               </div>
             </div>
           </div>
