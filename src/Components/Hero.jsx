@@ -10,7 +10,7 @@ const Hero = () => {
           NYAN CAT
         </h1>
         <p className="text-white  font-normal texture text-3xl leading-loose tracking-tight">
-          xxxDrugLordToadxxx entered the chat
+          420MemeWinnerJeetKiller420
         </p>
         <div className="items-stretch flex-col md:flex-row md:items-start gap-5 inline-flex">
           <a
