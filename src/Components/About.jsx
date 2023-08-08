@@ -10,7 +10,7 @@ const About = () => {
         <img src={barack} alt="" className="mx-auto" />
 
         <a
-          href=""
+          href="https://t.me/NyanCatENTRY"
           className="px-[10.50px] pb-[3px] bg-gradient-to-r from-yellow-400 via-cyan-400 to-red-600 justify-center items-center flex"
         >
           <div className="self-stretch px-8 py-4 bg-gradient-to-r from-yellow-400 via-cyan-400 to-red-600 shadow justify-center items-center gap-2.5 inline-flex">

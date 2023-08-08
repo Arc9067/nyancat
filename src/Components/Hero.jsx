@@ -14,7 +14,7 @@ const Hero = () => {
         </p>
         <div className="items-stretch flex-col md:flex-row md:items-start gap-5 inline-flex">
           <a
-            href=""
+            href="https://t.me/NyanCatENTRY"
             className="px-[10.50px] pb-[3px] bg-gradient-to-r from-yellow-400 via-cyan-400 to-red-600 justify-center items-center flex"
           >
             <div className="self-stretch px-8 py-4 bg-gradient-to-r from-yellow-400 via-cyan-400 to-red-600 shadow justify-center items-center gap-2.5 inline-flex">
@@ -24,12 +24,12 @@ const Hero = () => {
             </div>
           </a>
           <a
-            href=""
+            href="Twitter.com/NyanCat1000X"
             className="px-[10.50px] pb-[3px] bg-gradient-to-r from-yellow-400 via-cyan-400 to-red-600 justify-center items-center flex"
           >
             <div className="self-stretch px-8 py-4 bg-gradient-to-r from-yellow-400 via-cyan-400 to-red-600 shadow justify-center items-center gap-2.5 inline-flex">
               <div className="text-black text-xl font-comic font-bold leading-7">
-                JOIN TWITTER
+                TWITTER
               </div>
             </div>
           </a>
