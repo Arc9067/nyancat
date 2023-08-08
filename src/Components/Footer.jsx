@@ -8,9 +8,6 @@ const Footer = () => {
         <img src={footerLogo} alt="" />
       </a>
 
-      <div className="text-black font-comic font-bold leading-[48px]">
-        XXREALDEALDRUGTRAFFICKERMEMESZNXXX
-      </div>
       <div className="flex items-center gap-5">
         <a href="">
           <svg

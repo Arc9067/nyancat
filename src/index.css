@@ -35,4 +35,20 @@
     background: url(./assets/fire.gif) center center no-repeat;
     background-size: 100% 100%;
   }
+  .voltichange-widget {
+    width: 500px;
+    height: 460px;
+  }
+
+  @media (max-width: 505px) {
+    .voltichange-widget {
+      width: 85vw;
+      margin: 0 auto;
+      height: 590px;
+    }
+  }
+  .bg2 {
+    background: url(./assets/bg2.gif) center center no-repeat;
+    background-size: cover;
+  }
 }
