@@ -19,7 +19,9 @@ const App = () => {
           className="cursor-pointer"
           onClick={() => {
             setOpen(true);
-            new Audio("/audio.mp3").play();
+            const audio = new Audio("/audio.mp3");
+            audio.play();
+            audio.loop = true;
           }}
         />
       </div>
