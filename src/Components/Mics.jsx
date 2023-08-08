@@ -8,24 +8,24 @@ const Mics = () => {
       <h1 className="text-white text-4xl font-bold font-comic leading-[80px] tracking-wider">
         TOKENOMICS
       </h1>
-      <div className="w-[824px] h-[130px] justify-between items-start gap-[73px] inline-flex">
-        <div className="flex-col justify-start font-comic texture-white text-white items-center gap-3 inline-flex">
-          <div className="text-black text-[64px] font-bold leading-[70px]">
+      <div className="flex-col md:flex-row mt-16 justify-center items-center gap-[73px] inline-flex">
+        <div className="flex-col w-full justify-center items-center gap-3 inline-flex">
+          <div className="text-black texture-white text-[64px] font-bold leading-[70px]">
             xx420Mxx
           </div>
           <div className="text-black texture-white text-[40px] font-bold leading-[48px]">
             Total Supply
           </div>
-        </div>
-        <div className="flex-col texture-white justify-start items-center gap-3 inline-flex">
+        </div>{" "}
+        <div className="flex-col text-center texture-white justify-start items-center gap-3 inline-flex">
           <div className="text-black text-[64px] font-bold leading-[70px]">
             xx2%xx
           </div>
           <div className="text-black text-[40px] font-bold leading-[48px]">
             Max Wallet
           </div>
-        </div>
-        <div className="flex-col texture-white justify-start items-center gap-3 inline-flex">
+        </div>{" "}
+        <div className="flex-col justify-start texture-white items-center gap-3 inline-flex">
           <div className="text-black text-[64px] font-bold leading-[70px]">
             1/1
           </div>
@@ -33,7 +33,7 @@ const Mics = () => {
             Tax
           </div>
         </div>
-      </div>
+      </div>{" "}
     </section>
   );
 };
