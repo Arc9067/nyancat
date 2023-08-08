@@ -12,7 +12,7 @@ const App = () => {
 
   function Notopen() {
     return (
-      <div className="relative min-h-screen w-full flex justify-center items-center  text-white bg-[#0D00FB] bg-black b]g2">
+      <div className="fixed z-50 gap-5 min-h-screen w-full flex-col flex justify-center items-center  text-white bg-[#0D00FB] bg-black b]g2">
         <img
           src={play}
           alt=""
@@ -24,6 +24,23 @@ const App = () => {
             audio.loop = true;
           }}
         />
+        <div
+          onClick={() => {
+            setOpen(true);
+            const audio = new Audio("/audio.mp3");
+            audio.play();
+            audio.loop = true;
+          }}
+          className="cursor-pointer h-24 px-2 pt-[9px] pb-2 border-2 border-teal-400 justify-center items-center inline-flex"
+        >
+          <div className="grow shrink basis-0 self-stretch px-2.5 pt-2.5 pb-[9px] border-2 border-yellow-400 justify-center items-center inline-flex">
+            <div className="grow shrink basis-0 self-stretch px-8 py-4 bg-black shadow justify-center items-center gap-2.5 inline-flex">
+              <div className="text-white text-xl font-comic font-bold leading-7 tracking-tight">
+                BUY LSD
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }
