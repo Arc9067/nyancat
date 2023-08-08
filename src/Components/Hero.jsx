@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     <section className="py-20 gap-16 w-full grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
       <article className="flex flex-col gap-6">
-        <h1 className="font-comic text-white break-words text-4xl md:text-6xl  texture  font-bold lg:leading-[76.80px] tracking-wider">
-          420MemeWinnerJeetKiller420
+        <h1 className="font-comic text-white break-words text-5xl md:text-7xl  texture  font-bold lg:leading-[76.80px] tracking-wider">
+          NYAN CAT
         </h1>
         <p className="text-white  font-normal texture text-3xl leading-loose tracking-tight">
           xxxDrugLordToadxxx entered the chat
