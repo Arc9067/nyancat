@@ -3,6 +3,8 @@ import Hero from "./Components/Hero";
 import About from "./Components/About";
 import logo from "./assets/logo.svg";
 import Mics from "./Components/Mics";
+import Buy from "./Components/Buy";
+import Footer from "./Components/Footer";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
         <About />
         <img src={logo} alt="" className="mx-auto animate-pulse" />
         <Mics />
+        <Buy />
+        <Footer />
       </div>
     </div>
   );
