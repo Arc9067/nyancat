@@ -9,12 +9,13 @@ const Buy = () => {
             HOW TO BUY
           </h1>
           <h1 className="text-white  font-comic font-bold leading-[57.60px] tracking-wide">
-            BUY $LSD
+            BUY $NYAN
           </h1>
         </div>
         <div className=" text-white text-xl font-bold leading-loose tracking-wide">
-          Buy $LSD on the LOW! Use our sWap for the real DeaL. Trade your
-          xxMONeY420xx and ape to receive pure ACID, wagmi with a good trip fam.
+          Purchase $NYAN with STEEZE! Lower the slippage, JaredFromSubway been
+          FEASTING. Trade your moooonieS for some $NYAN and WATCH US reach ETHER
+          SPACE. NYANGANG4LYFE
         </div>
       </article>
 
